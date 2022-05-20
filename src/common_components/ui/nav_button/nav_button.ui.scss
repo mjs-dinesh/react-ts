@@ -1,0 +1,19 @@
+@import '../../../index.scss';
+
+.action_btn_wrapper {
+  .action_btn {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $background-light;
+    .icon-wrapper {
+      padding-right: 7px;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

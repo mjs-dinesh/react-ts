@@ -1,0 +1,14 @@
+.view_dashboard_history_container {
+  .view_dashboard_history_wrapper {
+    display: flex;
+    align-items: center;
+    margin: 2em 0em;
+    .view_dashboard_history {
+      cursor: pointer;
+      padding: 0 0.5em;
+      .gt_symbl {
+        padding-left: 0.5em;
+      }
+    }
+  }
+}
